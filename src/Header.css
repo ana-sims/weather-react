@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2");
+
 #top-row {
   margin: 0 auto;
+  font-family: "Baloo 2", cursive;
 }

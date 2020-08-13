@@ -3,6 +3,7 @@ import Header from "./Header";
 import Temperature from "./Temperature";
 import Forecast from "./Forecast";
 import Footer from "./Footer";
+import "bootstrap/dist/css/bootstrap.css";
 
 import "./App.css";
 

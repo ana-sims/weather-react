@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2");
+
 .App {
+  font-family: "Baloo 2", cursive;
   font-family: sans-serif;
   text-align: center;
 }
 
 #container {
+  font-family: "Baloo 2", cursive;
   max-width: fit-content;
   margin: 20px auto 10px;
   padding: 30px;

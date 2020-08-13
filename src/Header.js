@@ -1,6 +1,7 @@
 import React from "react";
 import City from "./City";
 import Form from "./Form";
+import "bootstrap/dist/css/bootstrap.css";
 
 import "./Header.css";
 

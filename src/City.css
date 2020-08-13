@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2");
+
 #top-row {
+  font-family: "Baloo 2", cursive;
   margin: 0 auto;
 }
 
 #city-display {
+  font-family: "Baloo 2", cursive;
   font-weight: bold;
   font-size: 35px;
   color: #004288;
@@ -10,6 +14,7 @@
 }
 
 #date-display {
+  font-family: "Baloo 2", cursive;
   font-size: 20px;
 }
 
@@ -20,10 +25,12 @@
 }
 
 .rightcard {
+  font-family: "Baloo 2", cursive;
   font-size: 20px;
 }
 
 .card-body,
 .text-left {
+  font-family: "Baloo 2", cursive;
   font-size: 20px;
 }

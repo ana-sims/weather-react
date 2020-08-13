@@ -1,5 +1,5 @@
 import React from "react";
-
+import "bootstrap/dist/css/bootstrap.css";
 import "./Form.css";
 
 export default function Form() {
@@ -7,7 +7,7 @@ export default function Form() {
     <div className="Form">
       <form id="city-form">
         <div className="row" id="form-row">
-          <div className="col-7">
+          <div className="col-6">
             <div className="form-group entercity">
               <input
                 type="search"
@@ -19,21 +19,19 @@ export default function Form() {
             </div>
           </div>
           <div className="col">
-            <button
+            <input
               type="submit"
+              value="Search"
               className="btn btn-info text-white shadow-lg"
               id="btn-search"
-            >
-              <i className="fas fa-search" />
-            </button>
+            />
 
-            <button
+            <input
               type="submit"
+              value="My location"
               className="btn text-white shadow-lg"
               id="button-link"
-            >
-              <i className="fas fa-map-marker-alt sm-icon" />
-            </button>
+            ></input>
           </div>
         </div>
       </form>

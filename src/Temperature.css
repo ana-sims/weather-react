@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2");
+
 .card {
   border: none;
   font-family: "Baloo 2", cursive;
@@ -9,6 +11,7 @@
 }
 
 #display-temperature {
+  font-family: "Baloo 2", cursive;
   font-size: 100px;
   color: #004288;
 }
@@ -33,6 +36,7 @@
 }
 
 #location {
+  font-family: "Baloo 2", cursive;
   color: #e7305b;
 }
 
@@ -41,5 +45,6 @@
 }
 
 #description {
+  font-family: "Baloo 2", cursive;
   font-size: 25px;
 }
