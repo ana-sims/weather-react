@@ -1,26 +1,23 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import Weather from "./Weather";
+import Header from "./Header";
+import Temperature from "./Temperature";
+import Forecast from "./Forecast";
+import Footer from "./Footer";
 
-function App() {
+import "./App.css";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-          <Weather />
-        </a>
-      </header>
+      <div
+        className="container rounded border border-white shadow p-3 mb-3"
+        id="container"
+      >
+        <Header />
+        <Temperature />
+        <Forecast />
+        <Footer />
+      </div>
     </div>
   );
 }
-
-export default App;

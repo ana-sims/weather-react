@@ -1,0 +1,29 @@
+#top-row {
+  margin: 0 auto;
+}
+
+#city-display {
+  font-weight: bold;
+  font-size: 35px;
+  color: #004288;
+  max-width: 200px;
+}
+
+#date-display {
+  font-size: 20px;
+}
+
+.card {
+  border: none;
+  font-family: "Baloo 2", cursive;
+  display: inline-block;
+}
+
+.rightcard {
+  font-size: 20px;
+}
+
+.card-body,
+.text-left {
+  font-size: 20px;
+}

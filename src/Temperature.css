@@ -1,0 +1,45 @@
+.card {
+  border: none;
+  font-family: "Baloo 2", cursive;
+  display: inline-block;
+}
+
+.rightcard {
+  font-size: 20px;
+}
+
+#display-temperature {
+  font-size: 100px;
+  color: #004288;
+}
+
+#temperature-card {
+  max-width: fit-content;
+}
+
+.celsius,
+.fahrenheit {
+  font-size: 30px;
+}
+
+.stick {
+  font-size: 25px;
+  color: #6d757d;
+}
+
+.card-body,
+.text-left {
+  font-size: 20px;
+}
+
+#location {
+  color: #e7305b;
+}
+
+#icon-main {
+  width: 90px;
+}
+
+#description {
+  font-size: 25px;
+}

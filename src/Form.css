@@ -1,0 +1,40 @@
+#top-row {
+  margin: 0 auto;
+}
+
+#form-row {
+  margin: 0 auto;
+}
+
+form {
+  font-family: "Baloo 2", cursive;
+}
+
+#city-form {
+  margin: 15px 0px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+#button-link {
+  background-color: #004288;
+  margin: 0 10px 0;
+  border: #004288;
+}
+
+.card {
+  border: none;
+  font-family: "Baloo 2", cursive;
+  display: inline-block;
+}
+
+.rightcard {
+  font-size: 20px;
+}
+
+.card-body,
+.text-left {
+  font-size: 20px;
+}
