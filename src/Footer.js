@@ -9,7 +9,7 @@ export default function Footer() {
       <div id="signature">
         Open-source code by{" "}
         <a
-          href="https://github.com/ana-sims/my-awesome-project"
+          href="https://github.com/ana-sims/weather-react"
           className="text-info"
         >
           ana-sims
